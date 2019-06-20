@@ -1,0 +1,15 @@
+/* PHASE 11: Icons */
+
+a[class*="icon-"] {
+  display: inline-block;
+  background-image: url("../images/sprite.png");
+  width: 25px;
+  height: 0;
+  overflow: hidden;
+  background-size: 25px;
+  padding-top: 25px;
+}
+
+.icon-reblog {
+  background-position: center;
+}
